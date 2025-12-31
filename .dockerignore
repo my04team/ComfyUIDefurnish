@@ -1,0 +1,60 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+uv/
+venv/
+.venv/
+env/
+*.egg-info/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# ComfyUI runtime data (will be created fresh)
+output/
+input/
+user/
+temp/
+*.log
+
+# Models (downloaded during build)
+models/checkpoints/*
+models/clip/*
+models/vae/*
+models/diffusion_models/*
+models/loras/*
+models/controlnet/*
+models/upscale_models/*
+!models/*/.gitkeep
+
+# Tests
+tests/
+tests-unit/
+pytest.ini
+.pytest_cache/
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# CI/CD
+.ci/
+.github/
