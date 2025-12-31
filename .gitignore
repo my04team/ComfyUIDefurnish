@@ -5,8 +5,9 @@ __pycache__/
 !/input/example.png
 /models/
 /temp/
-/custom_nodes/
-!custom_nodes/example_node.py.example
+# Include custom_nodes but exclude their __pycache__ folders
+custom_nodes/**/__pycache__/
+custom_nodes/**/.git/
 extra_model_paths.yaml
 /.vs
 .vscode/

@@ -1,0 +1,13 @@
+diffusers>=0.33.1
+accelerate
+sentencepiece
+protobuf
+huggingface_hub
+tomli
+
+# PuLID dependencies
+insightface
+opencv-python
+facexlib
+onnxruntime
+timm
